@@ -1,7 +1,7 @@
 root = Tk()
 root.geometry ('300x300')
 root.title('DataFlair-Mad Libs Generator')
-Label(root, text= 'Mad Libs Generator \n Have Fun!' , font = 'arial 20 bold') pack()
+Label(root, text= 'Mad Libs Generator Have Fun!' , font = 'arial 20 bold') pack()
 Label(root, text = 'Click Any One :', font = 'arial 15 bold').place(x=40, y=80)
 
 def madlib1():
@@ -29,7 +29,7 @@ def madlib2():
 	verb = input('enter verb : ')
 	print ('Last night I dreamed I was a ' + adjective + ' butterfly with ' + color + ' plotches that looked like ' + thing + ' . I flew to ' + place + ' with my best friend and ' + person + ' who was a ' + adjective1 + ' ' + insect + ' . We ate some ' + food + ' when we got there and then decided to ' + verb + ' and the dream ended when I said -- lets ' + verb + '.')
 	
-def madlib3
+def madlib3():
 
 	person = input('enter persons name : ')
 	color = input('enter color name : ')
